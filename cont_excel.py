@@ -9,6 +9,7 @@ seconth=0 #sexo contador hombre
 secontm=0 #sexo contador hombre
 for rows in hoja: #recorrer celdas
     nombre=rows[1].value#asignar celda nombre
+    
     cols=rows[0].value#asignar celda numero consecutivo
     col=str(cols)#convertir en string numeros consecutivo
     nombre1=str(nombre)#convertir en string nombre
